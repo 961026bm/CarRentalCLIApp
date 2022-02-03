@@ -7,12 +7,12 @@ public class Car {
     private String model;
     private boolean isRented;
 
- public Car(String make, String model) {
+     public Car(String make, String model) {
         this.make = make;
         this.model = model;
         this.isRented = false;
     }
-    // this method is to access the value of make
+    // this method is to access the value of make (getter)
     public String getMake() {
         return make;
     }
@@ -30,4 +30,12 @@ public class Car {
         isRented = rented;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", isRented=" + isRented +
+                '}';
+    }
 }

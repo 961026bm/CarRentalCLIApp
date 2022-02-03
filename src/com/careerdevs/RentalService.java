@@ -7,16 +7,16 @@ public class RentalService {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//        System.out.println("Welcome to BM Car Rentals App");
-//        System.out.println("please enter a number to select the car you will like to rent./n 1 2 or 3: ");
-//        String user = scanner.nextLine();
-//        System.out.println("you have chosen car" + user);
-//
-//        System.out.println("Thank you, your order will be processed, pls enter your name");
-//        String user1 = scanner.nextLine();
-//        System.out.println(user1 + " How many days do you need the car?");
-//        short user2 = scanner.nextShort();
-//        System.out.println("You have selected " + user2 + " days");
+        System.out.println("Welcome to BM Car Rentals App");
+        System.out.println("please enter a number to select the car you will like to rent./n 1 2 or 3: ");
+        String user = scanner.nextLine();
+        System.out.println("you have chosen car" + user);
+
+        System.out.println("Thank you, your order will be processed, pls enter your name");
+        String user1 = scanner.nextLine();
+        System.out.println(user1 + " How many days do you need the car?");
+        short user2 = scanner.nextShort();
+        System.out.println("You have selected " + user2 + " days");
 
 
 
@@ -35,8 +35,11 @@ public class RentalService {
         for (int i = 0; i < carStorage.length; i++) {
             //System.out.println(car1.getMake()); // this will output Honda
             System.out.println(carStorage[i].getMake()); // this output honda, chevy & toyota
-
         }
+        System.out.println("Main Menu");
+        System.out.println("1) Menu 1");
+        System.out.println("2) Menu 2");
+        System.out.println("3) Exit");
 
 
 
