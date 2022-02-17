@@ -30,6 +30,10 @@ public class Car {
         isRented = rented;
     }
 
+    public boolean isRented() {
+        return isRented;
+    }
+
     @Override
     public String toString() {
         return "Car{" +
